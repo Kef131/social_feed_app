@@ -1,0 +1,40 @@
+name: social_feed_app
+description: "SocialFeedApp - Flutter Training project"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State management
+  bloc: ^9.2.0
+  flutter_bloc: ^9.0.1
+
+  # Navigation
+  go_router: ^17.2.1
+
+  # DI
+  get_it: ^9.2.1
+
+  # Networking
+  http: ^1.2.2
+
+  # Utilities
+  equatable: ^2.0.5 # Value equality for BLoC events/states (Kotlin data classes)
+  uuid: ^4.4.2 # unique ID gen
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  build_runner: ^2.4.12
+
+flutter:
+  uses-material-design: true
