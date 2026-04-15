@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'services/service_locator.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized(); // emsire fñutter engine is initialized before any other setup
+  setupServiceLocator();
   runApp(const _PlaceholderApp());
 }
 
